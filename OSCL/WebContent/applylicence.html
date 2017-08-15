@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Licence applying</title>
+<link rel="stylesheet" type="text/css" href="CSS/style1.css"/>
+</head>
+<body>
+<form action="PaymentDetails" method="post">
+<table>
+<tr>
+<th><b>Payment Details</b></th>
+</tr>
+ <tr>
+ <tr>
+<td><b>Name on Card</b></td><td> <input type="text" name="cname" size="30" autocomplete="on" required="required"><br></td>
+</tr>
+<tr>
+<td><b>Card Number</b></td><td> <input type="text" name="cardnumber" size="30" autocomplete="on" required="required"><br></td>
+</tr>
+<tr>
+<td><b>CVV Number</b></td>  <td><input type="text" name="cvvnumber" size="30"><br></td>
+</tr>
+<tr>
+<td><b>Mobile Number</b> </td>  <td> <input type="tel" min="10" name="mobileno" required="required" placeholder="Enter 10 digit number" size="30"><br></td>
+</tr>
+
+<tr>
+<th><b>Licence Shipping Address</b></th>
+</tr>
+ <tr>
+<td><b>City</b></td>
+<td><select name="City" required="required">
+<option value="null" selected>select..</option>
+<option value="toronto">Toronto</option>
+<option value="vancouver">Vancouver</option>
+<option value="motreal">Motreal</option>
+<option value="ottawa">Ottawa</option>
+<option value="edmonton">Edmonton</option>
+<option value="winnipeg">Winnipeg</option>
+<option value="Hamiton">Hamiton</option>
+</select></td>
+</tr>
+<tr>
+<td><b>Postal Code</b></td>  <td> <input type="text" name="pincode" size="30" required="required"><br></td>
+</tr>
+<tr>
+<td><b>House Number</b></td>  <td> <input type="text" name="houseno" size="30" required="required" ><br></td>
+</tr>
+<tr><td><input type="submit" value="Apply"><td></tr>
+</table>
+</form>
+</body>
+</html>

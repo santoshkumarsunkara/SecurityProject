@@ -1,0 +1,32 @@
+@CHARSET "ISO-8859-1";
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 1px;
+    border-color: gray;
+    padding-left: 300px;
+    padding-top: 50px;
+}
+body {
+    background-image: url("home_image.jpg");
+    /*background-color: #cccccc;*/
+     background-repeat:no-repeat;
+	 background-size:cover;
+}
+.contact
+{
+	padding-left: 200px;
+    padding-top: 50px;
+}
+.Applicant-registration
+{
+	padding-left: 200px;
+    padding-top: 50px;
+    border: thick;
+}
+.adminlogin
+{
+	padding-left: 200px;
+    padding-top: 50px;
+    	
+}
